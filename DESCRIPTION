@@ -11,3 +11,7 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/simschul/mRio
 BugReports: https://github.com/simschul/mRio/issues
+RoxygenNote: 7.2.1
+Imports: 
+    data.table, 
+    tidyverse
