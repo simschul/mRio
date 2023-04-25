@@ -189,7 +189,7 @@ read_EB3_S_meta <- function(path) {
 #' @examples
 read_EB3_F <- function(path, metadata = FALSE) {
   Fmat <- fread(file.path(path),
-             skip = 2, header = FALSE, drop = 1) %>%
+             skip = 3, header = FALSE, drop = 1) %>%
     as.matrix
   if (isTRUE(metadata)) {
     meta <- read_EB3_F_meta(path)
